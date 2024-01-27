@@ -28,11 +28,12 @@ ol  {
     color: rgb(15, 1, 1);
     background: rgb(86, 226, 226);
     margin: 10px;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 ol li{
-    background: rgb(75, 75, 163);
+    background: red;
     margin: 5px;
 
 }
@@ -49,3 +50,21 @@ ul li{
     margin:  5px;
 }
 
+button{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10%;
+    background: transparent;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+button a{
+    text-decoration: none;
+    color: red;
+}
+
+button:hover{
+    background: #fff;
+    color: #fff;
+}
